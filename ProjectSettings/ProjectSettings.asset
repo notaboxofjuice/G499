@@ -821,11 +821,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: G499
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: C:\GameDev\Unity\G499\Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: notaboxofjuice
+  metroCertificateIssuer: notaboxofjuice
+  metroCertificateNotAfter: 00f59283558fdb01
   metroApplicationDescription: G499
   wsaImages: {}
   metroTileShortName: G499
@@ -845,8 +845,8 @@ PlayerSettings:
     WindowsStoreApps:
       GazeInput: True
       PrivateNetworkClientServer: True
-      SpatialPerception: True
       InternetClientServer: True
+      SpatialPerception: True
       InternetClient: True
       WebCam: True
       Microphone: True
