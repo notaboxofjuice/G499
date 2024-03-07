@@ -101,7 +101,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 3
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -138,7 +138,11 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 29b12b4fc2a5efe4c99f6ea2803d8447, type: 2}
+  - {fileID: 11400000, guid: c677e5c4eb85b7849a8da406775c299d, type: 2}
+  - {fileID: -7058992388569478530, guid: d1db0294a3b481e40924e9caa4525c8e, type: 2}
+  - {fileID: -835143395956430610, guid: c1379aebd85b1454aba628232d1ddad9, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -821,7 +825,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: G499
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: C:\GameDev\Unity\G499\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: notaboxofjuice
   metroCertificateIssuer: notaboxofjuice

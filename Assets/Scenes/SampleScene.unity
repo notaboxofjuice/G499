@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -550,8 +550,7 @@ MonoBehaviour:
   NetworkConfig:
     ProtocolVersion: 0
     NetworkTransport: {fileID: 603491177}
-    PlayerPrefab: {fileID: 2351505567455720334, guid: f1a29da1e52e62a41a31b101fdad60f9,
-      type: 3}
+    PlayerPrefab: {fileID: 0}
     Prefabs:
       NetworkPrefabsLists:
       - {fileID: 11400000, guid: 399bbd5f96159bb498ec66d570da3317, type: 2}
@@ -1496,12 +1495,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1421493162}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1738124580 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2351505567455720334, guid: f1a29da1e52e62a41a31b101fdad60f9,
-    type: 3}
-  m_PrefabInstance: {fileID: 471302199}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1816652755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,4 +1806,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_inputJoinCode: {fileID: 876943040}
   m_textJoinCode: {fileID: 1816652757}
-  m_localPlayer: {fileID: 1738124580}
